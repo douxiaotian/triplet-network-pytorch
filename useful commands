@@ -1,0 +1,23 @@
+(base) [jason@A08-R32-I193-66-FZ8KTP2 ~]$ conda config --add envs_dirs /usr/loca
+l/conda_envs/
+(base) [jason@A08-R32-I193-66-FZ8KTP2 ~]$ conda env list
+WARNING: The conda.compat module is deprecated and will be removed in a future r
+elease.
+WARNING: The conda.compat module is deprecated and will be removed in a future r
+elease.
+# conda environments:
+#
+base                  *  /home/jason/anaconda3
+syspt1.1                 /usr/local/conda_envs/syspt1.1
+syspt1.2                 /usr/local/conda_envs/syspt1.2
+systf1.14                /usr/local/conda_envs/systf1.14
+
+(base) [jason@A08-R32-I193-66-FZ8KTP2 ~]$ conda activate syspt1.2
+(/usr/local/conda_envs/syspt1.2) [jason@A08-R32-I193-66-FZ8KTP2 ~]$ python      
+Python 3.6.9 |Anaconda, Inc.| (default, Jul 30 2019, 19:07:31)
+[GCC 7.3.0] on linux
+Type "help", "copyright", "credits" or "license" for more information.
+>>> import torch
+>>>
+(/usr/local/conda_envs/syspt1.2) [jason@A08-R32-I193-66-FZ8KTP2 ~]$ logout      
+Connection to jd66 closed.
